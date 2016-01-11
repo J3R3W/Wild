@@ -1,0 +1,84 @@
+body{margin:0;padding:0;background:url('image/background.jpg')no-repeat center top fixed;background-size: auto;background-size: cover;
+}
+
+nav ul{list-style-type: none;margin:20px;float: left;
+}
+#piste{float: left;margin:10px;
+}
+#tit{border-radius: 15px;margin-right:5%;margin-left:265px;box-shadow: 0px 20px 50px #1c1a19;background-color: rgba(240,240,240,0.7);
+}
+#cer{border-radius: 15px;margin-right:5%;margin-left:265px;box-shadow: 0px 20px 50px #1c1a19;background-color: rgba(240,240,240,0.7);
+}
+#nico{border-radius: 15px;margin-right:5%;margin-left:265px;box-shadow: 0px 20px 50px #1c1a19;background-color: rgba(240,240,240,0.7);
+}
+#bab{border-radius: 15px;margin-right:5%;margin-left:265px;box-shadow: 0px 20px 50px #1c1a19;background-color: rgba(240,240,240,0.7);
+}
+#prog{border-radius: 15px;margin-right:5%;margin-left:265px;box-shadow: 0px 20px 50px #1c1a19;background-color: rgba(240,240,240,0.7);
+}
+p{margin-top:50px; margin-right:10px; margin-left:10px;font-size:24px;
+}
+header h2{display:none;
+}
+header h1{display:none;
+}
+header{margin-top:350px;
+}
+nav a{text-decoration: none;margin:10px;
+}
+#NicolasP{float: left;margin:10px;
+}
+#babouF{float: left;margin:10px;
+}
+#CR{float: left;margin:10px;
+}
+aside h2 {margin-left:10px;border-top:20px;
+}
+@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -100%; }
+95% { left: -100%; }
+100% { left: -0%; }
+}
+
+#slidy {margin: 10px;
+ } 
+div#slider { position: relative; width: 750px;height: 300px; overflow: hidden; left: 300px;border-radius: 15px;  box-shadow: 0px 10px 40px #1c1a19;}
+div#slider figure img { width: 20%; float: left; }
+div#slider figure {position: relative;width: 500%;margin: 0;left: 0;text-align: left;font-size: 0;animation: 30s slidy infinite; 
+}
+
+#fleche1{
+	 position: absolute;
+	 top: 310px;
+	left: 34px;
+	z-index: 11;
+}
+#fleche2{
+	position: absolute;
+	 top: 380px;
+   left: 32px;
+   z-index: 11
+}
+#fleche3{
+	position: absolute;
+	 top: 450px;
+   left: 16px;
+   z-index: 11
+}
+#fleche4{
+	position: absolute;
+	 top: 543px;
+   left: 19px;
+   z-index: 11
+}
+#piquet{position: absolute;
+left: 150px;
+top: 305px;
+z-index: 10;
+}
+#fleche { position: fixed; top:65%;  right: 7%;}
